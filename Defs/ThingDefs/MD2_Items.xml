@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+
+
+  <ThingDef Name="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComponents</thingClass>
+    <label>unspecified resource</label>
+    <category>Item</category>
+    <eType>Item</eType>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useStandardHealth>true</useStandardHealth>
+    <statBases>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+
+
+
+  <!--=============== Ruby ====================-->
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>MD2Ruby</defName>
+    <label>Ruby</label>
+    <description>A shiny ruby that looks like it's worth a pretty penny.</description>
+    <graphicPath>Items/Ruby/Ruby</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MarketValue>400</MarketValue>
+    </statBases>
+    <useStandardHealth>false</useStandardHealth>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <drawGUIOverlay>false</drawGUIOverlay>
+  </ThingDef>
+
+</GameData>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RecipeDefs>
+
+  <RecipeDef>
+    <defName>MD2MakeSilicon</defName>
+    <label>make silicon</label>
+    <description>Melts down sand to extract the silicon from it.</description>
+    <jobString>Making silicon.</jobString>
+    <workAmount>300</workAmount>
+    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_UseMetalRefinery</soundWorking>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2SandPile</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2Silicon>20</MD2Silicon>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MD2SandPile</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>MD2MakeSandPile</defName>
+    <label>make sand pile</label>
+    <description>Crushes a rock chunk into sand.</description>
+    <jobString>Crushing stone.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ChunkSandstone</li>
+            <li>ChunkGranite</li>
+            <li>ChunkLimestone</li>
+            <li>ChunkSlate</li>
+            <li>ChunkMarble</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2SandPile>100</MD2SandPile>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ChunkSandstone</li>
+        <li>ChunkGranite</li>
+        <li>ChunkLimestone</li>
+        <li>ChunkSlate</li>
+        <li>ChunkMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>MD2MakeCircuitry</defName>
+    <label>make circuitry</label>
+    <description>Assembles various circuitry.</description>
+    <jobString>Soldering PCB's.</jobString>
+    <workAmount>600</workAmount>
+    <workSpeedStat>MD2SolderingSpeed</workSpeedStat>
+    <effectWorking>Repair</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MD2Silicon</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <products>
+      <MD2Circuitry>10</MD2Circuitry>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Silver</li>
+        <li>MD2Silicon</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+  
+</RecipeDefs>

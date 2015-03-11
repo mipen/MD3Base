@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResearchProjectDefs>
+
+  <ResearchProjectDef>
+    <defName>MD2Tech</defName>
+    <label>Mechanical Defense 2 Tech</label>
+    <description>Welcome to Mechanical Defense 2.</description>
+    <totalCost>25</totalCost>
+    <prerequisites></prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD2UtilitiesI</defName>
+    <label>MD2 Utilities I</label>
+    <description>Unlocks researching the tier I utilities techs from MD2.</description>
+    <totalCost>100</totalCost>
+    <prerequisites>
+      <li>MD2Tech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD2DefenceI</defName>
+    <label>MD2 Defence I</label>
+    <description>Unlocks researching the tier I defence techs from MD2.</description>
+    <totalCost>100</totalCost>
+    <prerequisites>
+      <li>MD2Tech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD2OffenceI</defName>
+    <label>MD2 Offence I</label>
+    <description>Unlocks researching the tier I offence techs from MD2.</description>
+    <totalCost>100</totalCost>
+    <prerequisites>
+      <li>MD2Tech</li>
+    </prerequisites>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>MD2PowerGen</defName>
+    <label>MD2 Power Gen I</label>
+    <description>Unlocks researching the tier I power generation techs from MD2.</description>
+    <totalCost>100</totalCost>
+    <prerequisites>
+      <li>MD2UtilitiesI</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</ResearchProjectDefs>

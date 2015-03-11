@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+
+
+  <ThingDef Name="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComponents</thingClass>
+    <label>unspecified resource</label>
+    <category>Item</category>
+    <eType>Item</eType>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useStandardHealth>true</useStandardHealth>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+
+  <!-- Sand -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MD2SandPile</defName>
+    <label>pile of sand</label>
+    <description>A pile of sand.</description>
+    <graphicPath>Items/Resources/SandPile</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useStandardHealth>false</useStandardHealth>
+    <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.5</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>400</stackLimit>
+    <tradeability>Never</tradeability>
+  </ThingDef>
+
+  <!-- Silicon -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MD2Silicon</defName>
+    <label>silicon</label>
+    <description>A lump of silicon.</description>
+    <graphicPath>Items/Resources/Silicon</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useStandardHealth>false</useStandardHealth>
+    <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>4</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>100</stackLimit>
+  </ThingDef>
+
+  <!-- Circuitry -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MD2Circuitry</defName>
+    <label>circuitry</label>
+    <description>An assortment of circuitry.</description>
+    <graphicPath>Items/Resources/Circuitry</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useStandardHealth>false</useStandardHealth>
+    <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>10</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+
+  <!-- Coal -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MD2Coal</defName>
+    <label>coal</label>
+    <description>A lump of coal.</description>
+    <graphicPath>Default</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <useStandardHealth>false</useStandardHealth>
+    <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>20</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>75</stackLimit>
+  </ThingDef>
+
+</Resources>

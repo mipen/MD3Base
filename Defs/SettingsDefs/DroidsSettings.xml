@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SettingsDefs>
+<!-- Do not change the names of these defs; it will destroy the world-->
+  <SettingsDef Name="DroidSettingsBase" Abstract="true">
+    <healDelayTicks>36000</healDelayTicks>
+  </SettingsDef>
+
+  <SettingsDef ParentName="DroidSettingsBase">
+    <defName>MD2DroidSettings</defName>
+  </SettingsDef>
+
+</SettingsDefs>
