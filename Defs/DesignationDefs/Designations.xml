@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DesignationDefs>
+
+  <DesignationDef>
+    <defName>MD2CollectSand</defName>
+    <graphicPath>UI/Overlays/Designations/Mine</graphicPath>
+    <targetType>Cell</targetType>
+  </DesignationDef>
+
+</DesignationDefs>

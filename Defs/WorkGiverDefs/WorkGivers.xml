@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+
+  <!-- ============= Misc ============= -->
+
+  <WorkGiverDef>
+    <defName>MD2CollectSand</defName>
+    <giverClass>MD2.WorkGiver_CollectSand</giverClass>
+    <workType>Mining</workType>
+    <verb>collect sand</verb>
+    <gerund>collecting sand</gerund>
+    <scanThings>false</scanThings>
+    <scanCells>true</scanCells>
+    <requiredActivities>
+      <li>Manipulation</li>
+    </requiredActivities>
+  </WorkGiverDef>
+
+
+</WorkGivers>
