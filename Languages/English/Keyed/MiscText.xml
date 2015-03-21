@@ -7,4 +7,10 @@
 
   <DesignatorCollectSandDesc>Designate areas of sand to collect.</DesignatorCollectSandDesc>
 
+  <NoOrders>No orders</NoOrders>
+
+  <NoAvailableUpgrades>No available upgrades</NoAvailableUpgrades>
+
+  <UpgradeInstall>Install</UpgradeInstall>
+
 </LanguageData>
