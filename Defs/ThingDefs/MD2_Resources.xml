@@ -108,6 +108,7 @@
     <stackLimit>75</stackLimit>
   </ThingDef>
   
+  <!--Charcoal-->
   <ThingDef ParentName="ResourceBase">
     <defName>MD2Charcoal</defName>
     <label>charcoal</label>
@@ -126,6 +127,69 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
+  </ThingDef>
+  
+  <!--Soft clay-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MD2SoftClay</defName>
+    <label>soft clay</label>
+    <description>A lump of soft clay.</description>
+    <graphicPath>Items/Resources/SoftClay</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Stone_Drop</soundInteract>
+    <soundDrop>Stone_Drop</soundDrop>
+    <useStandardHealth>false</useStandardHealth>
+    <statBases>
+      <MarketValue>0.3</MarketValue>
+      <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+      <MeleeWeapon_BluntDamageMultiplier>0.8</MeleeWeapon_BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>1000</stackLimit>
+  </ThingDef>
+  
+  <!--Clay Brick-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MD2ClayBrick</defName>
+    <label>clay brick</label>
+    <description>A brick of hardened clay. Can be used for construction.</description>
+    <graphicPath>Items/Resources/ClayBricks</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <soundInteract>Stone_Drop</soundInteract>
+    <soundDrop>Stone_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>StoneBlocks</li>
+    </thingCategories>
+    <stackLimit>200</stackLimit>
+    <useStandardHealth>false</useStandardHealth>
+    <stuffProps>
+      <stuffAdjective>clay bricks</stuffAdjective>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <smallVolume>false</smallVolume>
+      <color>(163,109,64)</color>
+      <statOffsets>
+        <WorkToMake>70</WorkToMake>
+        <Beauty>1.5</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHealth>0.7</MaxHealth>
+        <Flammability>0</Flammability>
+        <Beauty>1</Beauty>
+        <WorkToMake>2.5</WorkToMake>
+        <MarketValue>0.2</MarketValue>
+        <DoorOpenSpeed>0.4</DoorOpenSpeed>
+        <BedRestEffectiveness>0.9</BedRestEffectiveness>
+        <MeleeWeapon_Cooldown>1.1</MeleeWeapon_Cooldown>
+      </statFactors>
+    </stuffProps>
   </ThingDef>
 
 

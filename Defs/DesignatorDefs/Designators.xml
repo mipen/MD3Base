@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DesignatorDefs>
+
+  <DesignatorDef>
+    <defName>MD2CollectSand</defName>
+    <designatorClass>MD2.Designator_CollectSand</designatorClass>
+    <designationCategory>Orders</designationCategory>
+  </DesignatorDef>
+
+  <DesignatorDef>
+    <defName>MD2CollectClay</defName>
+    <designatorClass>MD2.Designator_CollectClay</designatorClass>
+    <designationCategory>Orders</designationCategory>
+  </DesignatorDef>
+
+</DesignatorDefs>

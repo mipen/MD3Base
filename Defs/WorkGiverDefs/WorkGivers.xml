@@ -16,5 +16,17 @@
     </requiredActivities>
   </WorkGiverDef>
 
+  <WorkGiverDef>
+    <defName>MD2CollectClay</defName>
+    <giverClass>MD2.WorkGiver_CollectClay</giverClass>
+    <workType>Mining</workType>
+    <verb>collect clay</verb>
+    <gerund>collecting clay</gerund>
+    <scanThings>false</scanThings>
+    <scanCells>true</scanCells>
+    <requiredActivities>
+      <li>Manipulation</li>
+    </requiredActivities>
+  </WorkGiverDef>
 
 </WorkGivers>

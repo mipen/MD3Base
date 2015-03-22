@@ -8,5 +8,11 @@
 		<driverClass>MD2.JobDriver_CollectSand</driverClass>
 		<reportString>Collecting sand.</reportString>
 	</JobDef>
+
+  <JobDef>
+    <defName>MD2CollectClayJob</defName>
+    <driverClass>MD2.JobDriver_CollectClay</driverClass>
+    <reportString>Collecting clay.</reportString>
+  </JobDef>
   
 </JobDefs>

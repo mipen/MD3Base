@@ -7,4 +7,10 @@
     <targetType>Cell</targetType>
   </DesignationDef>
 
+  <DesignationDef>
+    <defName>MD2CollectClay</defName>
+    <graphicPath>UI/Overlays/Designations/Mine</graphicPath>
+    <targetType>Cell</targetType>
+  </DesignationDef>
+
 </DesignationDefs>
