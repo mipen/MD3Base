@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>MD2SandFiller</defName>
+    <eType>BuildingComplex</eType>
+    <label>Fill with sand</label>
+    <thingClass>MD2.SandFiller</thingClass>
+    <graphicPath>Items/Resources/SandPile</graphicPath>
+    <uiIconPath>Items/Resources/SandPile</uiIconPath>
+    <constructEffect>ConstructDirt</constructEffect>
+    <graphicClass>Graphic_Single</graphicClass>
+    <graphicOverdraw>false</graphicOverdraw>
+    <altitudeLayer>Floor</altitudeLayer>
+    <passability>Standable</passability>
+    <placingDraggableDimensions>2</placingDraggableDimensions>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.01</fillPercent>
+    <statBases>
+      <MaxHealth>1</MaxHealth>
+      <WorkToMake>200</WorkToMake>
+      <Flammability>0</Flammability>
+    </statBases>
+    <description>Designate areas of mud or shallow water to be filled with sand. This will change the terrain to sand.</description>
+    <size>(1,1)</size>
+    <costList>
+      <MD2SandPile>100</MD2SandPile>
+    </costList>
+    <hasInteractionCell>false</hasInteractionCell>
+    <terrainAffordanceNeeded>Any</terrainAffordanceNeeded>
+    <designationCategory>Orders</designationCategory>
+    <staticSunShadowHeight>0.1</staticSunShadowHeight>
+    <placeWorkers>
+      <li>MD2.PlaceWorker_OnMudAndWater</li>
+    </placeWorkers>
+  </ThingDef>
+  
+</Buildings>
