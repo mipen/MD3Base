@@ -92,7 +92,7 @@
     <defName>MD2Coal</defName>
     <label>coal</label>
     <description>A lump of coal.</description>
-    <graphicPath>Default</graphicPath>
+    <graphicPath>Items/Resources/Coal</graphicPath>
     <graphicClass>Graphic_Single</graphicClass>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
@@ -113,7 +113,7 @@
     <defName>MD2Charcoal</defName>
     <label>charcoal</label>
     <description>A lump of charcoal.</description>
-    <graphicPath>Default</graphicPath>
+    <graphicPath>Items/Resources/Coal</graphicPath>
     <graphicClass>Graphic_Single</graphicClass>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>

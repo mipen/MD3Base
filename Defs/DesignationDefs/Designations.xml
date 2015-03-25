@@ -3,13 +3,13 @@
 
   <DesignationDef>
     <defName>MD2CollectSand</defName>
-    <graphicPath>UI/Overlays/Designations/Mine</graphicPath>
+    <graphicPath>UI/Designations/CollectSand</graphicPath>
     <targetType>Cell</targetType>
   </DesignationDef>
 
   <DesignationDef>
     <defName>MD2CollectClay</defName>
-    <graphicPath>UI/Overlays/Designations/Mine</graphicPath>
+    <graphicPath>UI/Designations/CollectClay</graphicPath>
     <targetType>Cell</targetType>
   </DesignationDef>
 
