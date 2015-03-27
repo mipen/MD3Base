@@ -36,13 +36,12 @@
     <useStandardHealth>false</useStandardHealth>
     <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
     <statBases>
-      <MarketValue>0.5</MarketValue>
+      <MarketValue>0.06</MarketValue>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>400</stackLimit>
-    <tradeability>Never</tradeability>
   </ThingDef>
 
   <!-- Silicon -->
