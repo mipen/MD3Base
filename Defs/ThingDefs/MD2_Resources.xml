@@ -3,12 +3,11 @@
 
 
   <ThingDef Name="ResourceBase" Abstract="True">
-    <thingClass>ThingWithComponents</thingClass>
+    <thingClass>ThingWithComps</thingClass>
     <label>unspecified resource</label>
     <category>Item</category>
-    <eType>Item</eType>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <useStandardHealth>true</useStandardHealth>
+    <useHitPoints>true</useHitPoints>
     <selectable>true</selectable>
     <altitudeLayer>Item</altitudeLayer>
     <stackLimit>75</stackLimit>
@@ -33,7 +32,7 @@
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    <useStandardHealth>false</useStandardHealth>
+    <useHitPoints>false</useHitPoints>
     <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
     <statBases>
       <MarketValue>0.06</MarketValue>
@@ -42,7 +41,8 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>400</stackLimit>
-  </ThingDef>
+  
+</ThingDef>
 
   <!-- Silicon -->
   <ThingDef ParentName="ResourceBase">
@@ -54,7 +54,7 @@
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    <useStandardHealth>false</useStandardHealth>
+    <useHitPoints>false</useHitPoints>
     <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
     <statBases>
       <MarketValue>4</MarketValue>
@@ -75,7 +75,7 @@
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    <useStandardHealth>false</useStandardHealth>
+    <useHitPoints>false</useHitPoints>
     <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
     <statBases>
       <MarketValue>10</MarketValue>
@@ -96,7 +96,7 @@
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    <useStandardHealth>false</useStandardHealth>
+    <useHitPoints>false</useHitPoints>
     <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
     <statBases>
       <MarketValue>20</MarketValue>
@@ -105,7 +105,8 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
-  </ThingDef>
+  
+</ThingDef>
   
   <!--Charcoal-->
   <ThingDef ParentName="ResourceBase">
@@ -117,7 +118,7 @@
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    <useStandardHealth>false</useStandardHealth>
+    <useHitPoints>false</useHitPoints>
     <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
     <statBases>
       <MarketValue>20</MarketValue>
@@ -126,7 +127,8 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
-  </ThingDef>
+  
+</ThingDef>
   
   <!--Soft clay-->
   <ThingDef ParentName="ResourceBase">
@@ -138,7 +140,7 @@
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Stone_Drop</soundInteract>
     <soundDrop>Stone_Drop</soundDrop>
-    <useStandardHealth>false</useStandardHealth>
+    <useHitPoints>false</useHitPoints>
     <statBases>
       <MarketValue>0.3</MarketValue>
       <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
@@ -148,7 +150,8 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>1000</stackLimit>
-  </ThingDef>
+  
+</ThingDef>
   
   <!--Clay Brick-->
   <ThingDef ParentName="ResourceBase">
@@ -166,7 +169,7 @@
       <li>StoneBlocks</li>
     </thingCategories>
     <stackLimit>200</stackLimit>
-    <useStandardHealth>false</useStandardHealth>
+    <useHitPoints>false</useHitPoints>
     <stuffProps>
       <stuffAdjective>clay bricks</stuffAdjective>
       <categories>
@@ -179,7 +182,7 @@
         <Beauty>1.5</Beauty>
       </statOffsets>
       <statFactors>
-        <MaxHealth>0.7</MaxHealth>
+        <MaxHitPoints>0.7</MaxHitPoints>
         <Flammability>0</Flammability>
         <Beauty>1</Beauty>
         <WorkToMake>2.5</WorkToMake>

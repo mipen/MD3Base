@@ -14,7 +14,6 @@
 
   <ThingDef ParentName="BuildingBase">
     <defName>MD2SandFiller</defName>
-    <eType>BuildingComplex</eType>
     <label>Fill with sand</label>
     <thingClass>MD2.SandFiller</thingClass>
     <graphicPath>Items/Resources/SandPile</graphicPath>
@@ -28,7 +27,7 @@
     <castEdgeShadows>false</castEdgeShadows>
     <fillPercent>0.01</fillPercent>
     <statBases>
-      <MaxHealth>1</MaxHealth>
+      <MaxHitPoints>1</MaxHitPoints>
       <WorkToMake>200</WorkToMake>
       <Flammability>0</Flammability>
     </statBases>

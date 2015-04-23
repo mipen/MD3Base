@@ -17,21 +17,22 @@
         <bonusFactor>0.1</bonusFactor>
       </li>
     </skillNeedFactors>
-    <activityFactors>
+    <capacityFactors>
       <li>
-        <activity>Consciousness</activity>
+        <capacity>Consciousness</capacity>
         <weight>1</weight>
       </li>
       <li>
-        <activity>Sight</activity>
+        <capacity>Sight</capacity>
         <weight>0.4</weight>
       </li>
       <li>
-        <activity>Manipulation</activity>
+        <capacity>Manipulation</capacity>
         <weight>0.9</weight>
       </li>
-    </activityFactors>
+    </capacityFactors>
   </StatDef>
+  
   <StatDef>
     <defName>MD2SolderingEfficiency</defName>
     <label>soldering efficiency</label>
@@ -46,16 +47,16 @@
         <bonusFactor>0.03</bonusFactor>
       </li>
     </skillNeedFactors>
-    <activityFactors>
+    <capacityFactors>
       <li>
-        <activity>Sight</activity>
+        <capacity>Sight</capacity>
         <weight>0.4</weight>
       </li>
       <li>
-        <activity>Manipulation</activity>
+        <capacity>Manipulation</capacity>
         <weight>0.9</weight>
       </li>
-    </activityFactors>
+    </capacityFactors>
   </StatDef>
 
 </StatDefs>

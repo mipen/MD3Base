@@ -11,9 +11,9 @@
     <gerund>collecting sand</gerund>
     <scanThings>false</scanThings>
     <scanCells>true</scanCells>
-    <requiredActivities>
+    <requiredCapacities>
       <li>Manipulation</li>
-    </requiredActivities>
+    </requiredCapacities>
   </WorkGiverDef>
 
   <WorkGiverDef>
@@ -24,9 +24,9 @@
     <gerund>collecting clay</gerund>
     <scanThings>false</scanThings>
     <scanCells>true</scanCells>
-    <requiredActivities>
+    <requiredCapacities>
       <li>Manipulation</li>
-    </requiredActivities>
+    </requiredCapacities>
   </WorkGiverDef>
 
 </WorkGivers>

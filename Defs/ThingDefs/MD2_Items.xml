@@ -3,12 +3,11 @@
 
 
   <ThingDef Name="ResourceBase" Abstract="True">
-    <thingClass>ThingWithComponents</thingClass>
+    <thingClass>ThingWithComps</thingClass>
     <label>unspecified resource</label>
     <category>Item</category>
-    <eType>Item</eType>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <useStandardHealth>true</useStandardHealth>
+    <useHitPoints>true</useHitPoints>
     <statBases>
       <Flammability>1.0</Flammability>
     </statBases>
@@ -45,11 +44,12 @@
     <statBases>
       <MarketValue>400</MarketValue>
     </statBases>
-    <useStandardHealth>false</useStandardHealth>
+    <useHitPoints>false</useHitPoints>
     <thingCategories>
       <li>Items</li>
     </thingCategories>
     <drawGUIOverlay>false</drawGUIOverlay>
-  </ThingDef>
+  
+</ThingDef>
 
 </GameData>
