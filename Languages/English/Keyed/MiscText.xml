@@ -120,5 +120,7 @@
   <DesignatorCollectClayLabel>Collect clay</DesignatorCollectClayLabel>
 
   <DesignatorCollectClayReportString>Must designate mud or shallow water terrain</DesignatorCollectClayReportString>
+
+  <PermittedIngredients>Permitted Ingredients</PermittedIngredients>
   
 </LanguageData>
