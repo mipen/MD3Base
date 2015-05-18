@@ -113,7 +113,7 @@
     <defName>MD2Charcoal</defName>
     <label>charcoal</label>
     <description>A lump of charcoal.</description>
-    <graphicPath>Items/Resources/Coal</graphicPath>
+    <graphicPath>Items/Resources/Charcoal</graphicPath>
     <graphicClass>Graphic_Single</graphicClass>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
