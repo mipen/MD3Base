@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="BuildingNaturalBase" Abstract="True">
+    <category>Building</category>
+    <selectable>true</selectable>
+    <drawerType>MapMeshOnly</drawerType>
+    <filthLeaving>RockRubble</filthLeaving>
+  </ThingDef>
+
+
+  <ThingDef Name="RockBase" ParentName="BuildingNaturalBase" Abstract="True" >
+    <thingClass>Mineable</thingClass>
+    <graphicPath>Things/Building/Linked/Rock_Atlas</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <linkDrawerType>CornerFiller</linkDrawerType>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <neverMultiSelect>true</neverMultiSelect>
+    <rotatable>false</rotatable>
+    <saveCompressible>true</saveCompressible>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <mineable>true</mineable>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <building>
+      <isInert>true</isInert>
+      <isNaturalRock>true</isNaturalRock>
+      <soundMined>CollapseRock</soundMined>
+      <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
+    </building>
+    <linkFlags>
+      <li>Rock</li>
+      <li>MapEdge</li>
+    </linkFlags>
+  </ThingDef>
+
+  <!--============================ Resource rocks ===============================-->
+  
+  
+  <ThingDef ParentName="RockBase">
+    <defName>MD2MineableCoal</defName>
+    <label>coal ore</label>
+    <graphicPath>Things/Building/Linked/RockFlecked_Atlas</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <graphicShaderType>CutoutComplex</graphicShaderType>
+    <defaultColor>(65,34,34)</defaultColor>
+    <defaultColorTwo>(147,144,134)</defaultColorTwo>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <description>The remains of some ancient, collapsed structure. Rich in steel.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>MD2Coal</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>0.12</mineableScatterCommonality>
+      <mineableScatterBlotchSizeRange>
+        <min>4</min>
+        <max>8</max>
+      </mineableScatterBlotchSizeRange>
+    </building>
+  </ThingDef>
+
+</ThingDefs>
