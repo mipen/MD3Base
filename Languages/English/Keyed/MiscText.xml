@@ -122,5 +122,13 @@
   <DesignatorCollectClayReportString>Must designate mud or shallow water terrain</DesignatorCollectClayReportString>
 
   <PermittedIngredients>Permitted Ingredients</PermittedIngredients>
-  
+
+  <DroidSelfDestructPrompt>Are you sure you want to command this droid to self-destruct? This will destroy the droid and possibly cause an explosion.</DroidSelfDestructPrompt>
+
+  <DroidWorkOTab>Droid Work</DroidWorkOTab>
+
+  <Alert_DroidPowerCriticallyLowDescription>A droid's power levels have dropped dangerously low! If it is not already, get it headed to a charge pad immediately!</Alert_DroidPowerCriticallyLowDescription>
+
+  <Alert_DroidPowerCriticallyLowLabel>Droid power critically low</Alert_DroidPowerCriticallyLowLabel>
+
 </LanguageData>
