@@ -16,11 +16,12 @@
     <defName>MD2SandFiller</defName>
     <label>Fill with sand</label>
     <thingClass>MD2.SandFiller</thingClass>
-    <graphicPath>Items/Resources/SandPile</graphicPath>
+    <graphicData>
+      <texPath>Items/Resources/SandPile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <uiIconPath>Items/Resources/SandPile</uiIconPath>
     <constructEffect>ConstructDirt</constructEffect>
-    <graphicClass>Graphic_Single</graphicClass>
-    <graphicOverdraw>false</graphicOverdraw>
     <altitudeLayer>Floor</altitudeLayer>
     <passability>Standable</passability>
     <placingDraggableDimensions>2</placingDraggableDimensions>

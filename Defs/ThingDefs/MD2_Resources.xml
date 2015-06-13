@@ -27,8 +27,10 @@
     <defName>MD2SandPile</defName>
     <label>pile of sand</label>
     <description>A pile of sand.</description>
-    <graphicPath>Items/Resources/SandPile</graphicPath>
-    <graphicClass>Graphic_Single</graphicClass>
+    <graphicData>
+      <texPath>Items/Resources/SandPile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
@@ -41,16 +43,18 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>400</stackLimit>
-  
-</ThingDef>
+
+  </ThingDef>
 
   <!-- Silicon -->
   <ThingDef ParentName="ResourceBase">
     <defName>MD2Silicon</defName>
     <label>silicon</label>
     <description>A lump of silicon.</description>
-    <graphicPath>Items/Resources/Silicon</graphicPath>
-    <graphicClass>Graphic_Single</graphicClass>
+    <graphicData>
+      <texPath>Items/Resources/Silicon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
@@ -70,8 +74,10 @@
     <defName>MD2Circuitry</defName>
     <label>circuitry</label>
     <description>An assortment of circuitry.</description>
-    <graphicPath>Items/Resources/Circuitry</graphicPath>
-    <graphicClass>Graphic_Single</graphicClass>
+    <graphicData>
+      <texPath>Items/Resources/Circuitry</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
@@ -91,8 +97,10 @@
     <defName>MD2Coal</defName>
     <label>coal</label>
     <description>A lump of coal.</description>
-    <graphicPath>Items/Resources/Coal</graphicPath>
-    <graphicClass>Graphic_Single</graphicClass>
+    <graphicData>
+      <texPath>Items/Resources/Coal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
@@ -105,16 +113,18 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
-  
-</ThingDef>
-  
+
+  </ThingDef>
+
   <!--Charcoal-->
   <ThingDef ParentName="ResourceBase">
     <defName>MD2Charcoal</defName>
     <label>charcoal</label>
     <description>A lump of charcoal.</description>
-    <graphicPath>Items/Resources/Charcoal</graphicPath>
-    <graphicClass>Graphic_Single</graphicClass>
+    <graphicData>
+      <texPath>Items/Resources/Charcoal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
@@ -127,39 +137,41 @@
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
-  
-</ThingDef>
-  
+
+  </ThingDef>
+
   <!--Soft clay-->
   <ThingDef ParentName="ResourceBase">
     <defName>MD2SoftClay</defName>
     <label>soft clay</label>
     <description>A lump of soft clay.</description>
-    <graphicPath>Items/Resources/SoftClay</graphicPath>
-    <graphicClass>Graphic_Single</graphicClass>
+    <graphicData>
+      <texPath>Items/Resources/SoftClay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <soundInteract>Stone_Drop</soundInteract>
     <soundDrop>Stone_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
     <statBases>
       <MarketValue>0.3</MarketValue>
-      <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
-      <MeleeWeapon_BluntDamageMultiplier>0.8</MeleeWeapon_BluntDamageMultiplier>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
     <stackLimit>1000</stackLimit>
-  
-</ThingDef>
-  
+
+  </ThingDef>
+
   <!--Clay Brick-->
   <ThingDef ParentName="ResourceBase">
     <defName>MD2ClayBrick</defName>
     <label>clay brick</label>
     <description>A brick of hardened clay. Can be used for construction.</description>
-    <graphicPath>Items/Resources/ClayBricks</graphicPath>
-    <graphicClass>Graphic_Single</graphicClass>
+    <graphicData>
+      <texPath>Items/Resources/ClayBricks</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
     <soundInteract>Stone_Drop</soundInteract>
     <soundDrop>Stone_Drop</soundDrop>
     <statBases>
@@ -190,6 +202,8 @@
         <DoorOpenSpeed>0.4</DoorOpenSpeed>
         <BedRestEffectiveness>0.9</BedRestEffectiveness>
         <MeleeWeapon_Cooldown>1.1</MeleeWeapon_Cooldown>
+        <SharpDamageMultiplier>0.3</SharpDamageMultiplier>
+        <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
       </statFactors>
     </stuffProps>
   </ThingDef>
