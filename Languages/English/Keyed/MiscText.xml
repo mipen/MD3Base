@@ -131,4 +131,8 @@
 
   <Alert_DroidPowerCriticallyLowLabel>Droid power critically low</Alert_DroidPowerCriticallyLowLabel>
 
+  <Alert_DroidPowerLowDescription>A droid's power levels are getting low. Make sure it does not stray too far from a charge pad.</Alert_DroidPowerLowDescription>
+
+  <Alert_DroidPowerLowLabel>Droid power low</Alert_DroidPowerLowLabel>
+
 </LanguageData>
