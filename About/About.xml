@@ -3,6 +3,7 @@
   <name>MD2 Base</name>
   <author>mipen</author>
   <url>https://ludeon.com/forums/index.php?topic=7380.0</url>
-  <targetVersion>Alpha 9</targetVersion>
-  <description>Mechanical Defence 2 base module. This is required for all other MD2 modules and should be loaded first.</description>
+  <targetVersion>Alpha 11b</targetVersion>
+  <description>Mechanical Defence 2 base module. This is required for all other MD2 modules and should be loaded first.
+  Recompiled by Leucetius for Alpha 11b</description>
 </ModMetaData>
