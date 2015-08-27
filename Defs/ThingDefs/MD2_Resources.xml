@@ -182,12 +182,12 @@
     </thingCategories>
     <stackLimit>200</stackLimit>
     <useHitPoints>false</useHitPoints>
+    <smallVolume>false</smallVolume>
     <stuffProps>
       <stuffAdjective>clay bricks</stuffAdjective>
       <categories>
         <li>Stony</li>
       </categories>
-      <smallVolume>false</smallVolume>
       <color>(163,109,64)</color>
       <statOffsets>
         <WorkToMake>70</WorkToMake>

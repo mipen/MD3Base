@@ -13,6 +13,8 @@
 
   <NoAvailableUpgrades>No available upgrades</NoAvailableUpgrades>
 
+  <NoMoreThanOne>You may only build one of this type of building</NoMoreThanOne>
+
   <UpgradeInstall>Install</UpgradeInstall>
 
   <MD2Delete>Delete</MD2Delete>
