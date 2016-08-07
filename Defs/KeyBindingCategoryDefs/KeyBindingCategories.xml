@@ -3,9 +3,9 @@
 <KeyBindingCategoryDefs>
 
   <KeyBindingCategoryDef>
-    <defName>MD2Keys</defName>
-    <label>MD2 controls</label>
-    <description>Controls MD2.</description>
+    <defName>MD3Keys</defName>
+    <label>MD3 controls</label>
+    <description>Controls MD3.</description>
     <checkForConflicts>
       <li>GameMapCamera</li>
       <li>Game</li>

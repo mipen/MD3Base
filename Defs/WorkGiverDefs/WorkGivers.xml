@@ -4,8 +4,8 @@
   <!-- ============= Misc ============= -->
 
   <WorkGiverDef>
-    <defName>MD2CollectSand</defName>
-    <giverClass>MD2.WorkGiver_CollectSand</giverClass>
+    <defName>MD3CollectSand</defName>
+    <giverClass>MechanicalDefence.WorkGiver_CollectSand</giverClass>
     <workType>Mining</workType>
     <verb>collect sand</verb>
     <gerund>collecting sand</gerund>
@@ -17,8 +17,8 @@
   </WorkGiverDef>
 
   <WorkGiverDef>
-    <defName>MD2CollectClay</defName>
-    <giverClass>MD2.WorkGiver_CollectClay</giverClass>
+    <defName>MD3CollectClay</defName>
+    <giverClass>MechanicalDefence.WorkGiver_CollectClay</giverClass>
     <workType>Mining</workType>
     <verb>collect clay</verb>
     <gerund>collecting clay</gerund>

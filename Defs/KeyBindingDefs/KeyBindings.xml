@@ -5,7 +5,7 @@
   <!-- In-game camera -->
   
   <KeyBindingDef Name="GameMapKeyBinding" Abstract="true">
-    <category>MD2Keys</category>
+    <category>MD3Keys</category>
   </KeyBindingDef>
 
   <KeyBindingDef ParentName="GameMapKeyBinding">

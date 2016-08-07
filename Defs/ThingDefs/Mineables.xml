@@ -12,7 +12,7 @@
   <ThingDef Name="RockBase" ParentName="BuildingNaturalBase" Abstract="True" >
     <thingClass>Mineable</thingClass>
     <graphicData>
-      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <texPath>Things/Building/Linked/Rock_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <linkType>CornerFiller</linkType>
       <linkFlags>
@@ -20,8 +20,9 @@
         <li>MapEdge</li>
       </linkFlags>
     </graphicData>
-    <altitudeLayer>BuildingTall</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
+    <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>1</fillPercent>
     <coversFloor>true</coversFloor>
@@ -38,8 +39,8 @@
     <building>
       <isInert>true</isInert>
       <isNaturalRock>true</isNaturalRock>
-      <soundMined>CollapseRock</soundMined>
       <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
+      <deconstructible>false</deconstructible>
     </building>
   </ThingDef>
 
@@ -47,7 +48,7 @@
 
 
   <ThingDef ParentName="RockBase">
-    <defName>MD2MineableCoal</defName>
+    <defName>MD3MineableCoal</defName>
     <label>coal ore</label>
     <graphicData>
       <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
@@ -62,13 +63,9 @@
     <description>The remains of some ancient, collapsed structure. Rich in steel.</description>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>MD2Coal</mineableThing>
-      <mineableYield>10</mineableYield>
+      <mineableThing>MD3Coal</mineableThing>
+      <mineableYield>35</mineableYield>
       <mineableScatterCommonality>0.12</mineableScatterCommonality>
-      <mineableScatterBlotchSizeRange>
-        <min>4</min>
-        <max>8</max>
-      </mineableScatterBlotchSizeRange>
     </building>
   </ThingDef>
 

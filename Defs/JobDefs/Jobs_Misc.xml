@@ -4,14 +4,14 @@
   <!--========= General ============-->
 
   <JobDef>
-		<defName>MD2CollectSandJob</defName>
-		<driverClass>MD2.JobDriver_CollectSand</driverClass>
+		<defName>MD3CollectSandJob</defName>
+		<driverClass>MechanicalDefence.JobDriver_CollectSand</driverClass>
 		<reportString>Collecting sand.</reportString>
 	</JobDef>
 
   <JobDef>
-    <defName>MD2CollectClayJob</defName>
-    <driverClass>MD2.JobDriver_CollectClay</driverClass>
+    <defName>MD3CollectClayJob</defName>
+    <driverClass>MechanicalDefence.JobDriver_CollectClay</driverClass>
     <reportString>Collecting clay.</reportString>
   </JobDef>
   

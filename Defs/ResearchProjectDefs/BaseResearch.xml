@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResearchProjectDefs>
+
+  <ResearchProjectDef>
+    <defName>MD3Tech</defName>
+    <label>Mechanical Defense 3 Tech</label>
+    <description>Welcome to Mechanical Defense 2.</description>
+    <baseCost>25</baseCost>
+    <prerequisites></prerequisites>
+    <techLevel>Industrial</techLevel>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD3UtilitiesI</defName>
+    <label>MD3 Utilities I</label>
+    <description>Unlocks researching the tier I utilities techs from MD3.</description>
+    <baseCost>100</baseCost>
+    <prerequisites>
+      <li>MD3Tech</li>
+    </prerequisites>
+    <techLevel>Industrial</techLevel>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD3DefenceI</defName>
+    <label>MD3 Defence I</label>
+    <description>Unlocks researching the tier I defence techs from MD3.</description>
+    <baseCost>100</baseCost>
+    <prerequisites>
+      <li>MD3Tech</li>
+    </prerequisites>
+    <techLevel>Industrial</techLevel>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MD3OffenceI</defName>
+    <label>MD3 Offence I</label>
+    <description>Unlocks researching the tier I offence techs from MD3.</description>
+    <baseCost>100</baseCost>
+    <prerequisites>
+      <li>MD3Tech</li>
+    </prerequisites>
+    <techLevel>Industrial</techLevel>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>MD3PowerGen</defName>
+    <label>MD3 Power Gen I</label>
+    <description>Unlocks researching the tier I power generation techs from MD3.</description>
+    <baseCost>100</baseCost>
+    <prerequisites>
+      <li>MD3UtilitiesI</li>
+    </prerequisites>
+    <techLevel>Industrial</techLevel>
+  </ResearchProjectDef>
+
+</ResearchProjectDefs>

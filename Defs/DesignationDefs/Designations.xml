@@ -2,17 +2,18 @@
 <DesignationDefs>
 
   <DesignationDef>
-    <defName>MD2CollectSand</defName>
+    <defName>MD3CollectSand</defName>
     <texturePath>UI/Designations/CollectSand</texturePath>
     <targetType>Cell</targetType>
-    <removeIfBuildingDestroyed>true</removeIfBuildingDestroyed>
-  </DesignationDef>
+    <removeIfBuildingDespawned>true</removeIfBuildingDespawned>
+  
+</DesignationDef>
 
   <DesignationDef>
-    <defName>MD2CollectClay</defName>
+    <defName>MD3CollectClay</defName>
     <texturePath>UI/Designations/CollectClay</texturePath>
     <targetType>Cell</targetType>
-    <removeIfBuildingDestroyed>true</removeIfBuildingDestroyed>
+    <removeIfBuildingDespawned>true</removeIfBuildingDespawned>
   </DesignationDef>
 
 </DesignationDefs>

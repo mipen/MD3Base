@@ -3,14 +3,14 @@
 <RecipeDefs>
 
   <RecipeDef>
-    <defName>MD2MakeSilicon</defName>
+    <defName>MD3MakeSilicon</defName>
     <label>make silicon</label>
     <description>Melts down sand to extract the silicon from it.</description>
     <jobString>Making silicon.</jobString>
     <workAmount>300</workAmount>
     <workSpeedStat>StonecuttingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
-    <soundWorking>Recipe_UseMetalRefinery</soundWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
     <recipeUsers>
       <li>ElectricSmelter</li>
     </recipeUsers>
@@ -18,25 +18,25 @@
       <li>
         <filter>
           <thingDefs>
-            <li>MD2SandPile</li>
+            <li>MD3SandPile</li>
           </thingDefs>
         </filter>
         <count>30</count>
       </li>
     </ingredients>
     <products>
-      <MD2Silicon>20</MD2Silicon>
+      <MD3Silicon>20</MD3Silicon>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>MD2SandPile</li>
+        <li>MD3SandPile</li>
       </thingDefs>
     </fixedIngredientFilter>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef>
-    <defName>MD2MakeSandPile</defName>
+    <defName>MD3MakeSandPile</defName>
     <label>make sand pile</label>
     <description>Crushes a rock chunk into sand.</description>
     <jobString>Crushing stone.</jobString>
@@ -62,7 +62,7 @@
       </li>
     </ingredients>
     <products>
-      <MD2SandPile>100</MD2SandPile>
+      <MD3SandPile>100</MD3SandPile>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
@@ -77,12 +77,12 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>MD2MakeCircuitry</defName>
+    <defName>MD3MakeCircuitry</defName>
     <label>make circuitry</label>
     <description>Assembles various circuitry.</description>
     <jobString>Soldering PCB's.</jobString>
     <workAmount>600</workAmount>
-    <workSpeedStat>MD2SolderingSpeed</workSpeedStat>
+    <workSpeedStat>MD3SolderingSpeed</workSpeedStat>
     <effectWorking>Repair</effectWorking>
     <soundWorking>Interact_Repair</soundWorking>
     <recipeUsers>
@@ -92,7 +92,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>MD2Silicon</li>
+            <li>MD3Silicon</li>
           </thingDefs>
         </filter>
         <count>10</count>
@@ -115,25 +115,25 @@
       </li>
     </ingredients>
     <products>
-      <MD2Circuitry>10</MD2Circuitry>
+      <MD3Circuitry>10</MD3Circuitry>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
         <li>Steel</li>
         <li>Silver</li>
-        <li>MD2Silicon</li>
+        <li>MD3Silicon</li>
       </thingDefs>
     </fixedIngredientFilter>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
 
   <RecipeDef>
-    <defName>MD2MakeCharcoal</defName>
+    <defName>MD3MakeCharcoal</defName>
     <label>make charcoal</label>
     <description>Makes charcoal by burning wood.</description>
     <jobString>Burning wood.</jobString>
     <workAmount>300</workAmount>
-    <workSpeedStat>MD2SolderingSpeed</workSpeedStat>
+    <workSpeedStat>MD3SolderingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Interact_Repair</soundWorking>
     <recipeUsers>
@@ -150,7 +150,7 @@
       </li>
     </ingredients>
     <products>
-      <MD2Charcoal>10</MD2Charcoal>
+      <MD3Charcoal>10</MD3Charcoal>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
@@ -161,12 +161,12 @@
   </RecipeDef>
   
  <RecipeDef>
-    <defName>MD2MakeClayBricks</defName>
+    <defName>MD3MakeClayBricks</defName>
     <label>make clay bricks</label>
     <description>Makes clay bricks by baking soft clay.</description>
     <jobString>Baking clay.</jobString>
     <workAmount>300</workAmount>
-    <workSpeedStat>MD2SolderingSpeed</workSpeedStat>
+    <workSpeedStat>MD3SolderingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Interact_Repair</soundWorking>
     <recipeUsers>
@@ -176,18 +176,18 @@
       <li>
         <filter>
           <thingDefs>
-            <li>MD2SoftClay</li>
+            <li>MD3SoftClay</li>
           </thingDefs>
         </filter>
         <count>60</count>
       </li>
     </ingredients>
     <products>
-      <MD2ClayBrick>20</MD2ClayBrick>
+      <MD3ClayBrick>20</MD3ClayBrick>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>MD2SoftClay</li>
+        <li>MD3SoftClay</li>
       </thingDefs>
     </fixedIngredientFilter>
     <workSkill>Crafting</workSkill>

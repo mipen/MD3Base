@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CommunityCoreLibrary.ModHelperDef>
+    <defName>MD3BaseModHelper</defName>
+  	<ModName>MD3 Base</ModName>
+    <minCCLVersion>0.14.1</minCCLVersion>
+    <Designators>
+      <li>
+        <designatorClass>MechanicalDefence.Designator_CollectSand</designatorClass>
+        <designationCategoryDef>Orders</designationCategoryDef>
+      </li>
+      <li>
+        <designatorClass>MechanicalDefence.Designator_CollectClay</designatorClass>
+        <designationCategoryDef>Orders</designationCategoryDef>
+      </li>
+    </Designators>
+  </CommunityCoreLibrary.ModHelperDef>
+
+</Defs>

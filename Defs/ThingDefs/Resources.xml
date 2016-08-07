@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Resources>
 
-
-  <ThingDef Name="ResourceBase" Abstract="True">
-    <thingClass>ThingWithComps</thingClass>
-    <label>unspecified resource</label>
-    <category>Item</category>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <useHitPoints>true</useHitPoints>
-    <selectable>true</selectable>
-    <altitudeLayer>Item</altitudeLayer>
-    <stackLimit>75</stackLimit>
-    <comps>
-      <li>
-        <compClass>CompForbiddable</compClass>
-      </li>
-    </comps>
-    <alwaysHaulable>true</alwaysHaulable>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <rotatable>false</rotatable>
-    <pathCost>15</pathCost>
-  </ThingDef>
-
   <!-- Sand -->
   <ThingDef ParentName="ResourceBase">
-    <defName>MD2SandPile</defName>
+    <defName>MD3SandPile</defName>
     <label>pile of sand</label>
     <description>A pile of sand.</description>
     <graphicData>
@@ -48,7 +27,7 @@
 
   <!-- Silicon -->
   <ThingDef ParentName="ResourceBase">
-    <defName>MD2Silicon</defName>
+    <defName>MD3Silicon</defName>
     <label>silicon</label>
     <description>A lump of silicon.</description>
     <graphicData>
@@ -71,7 +50,7 @@
 
   <!-- Circuitry -->
   <ThingDef ParentName="ResourceBase">
-    <defName>MD2Circuitry</defName>
+    <defName>MD3Circuitry</defName>
     <label>circuitry</label>
     <description>An assortment of circuitry.</description>
     <graphicData>
@@ -94,7 +73,7 @@
 
   <!-- Coal -->
   <ThingDef ParentName="ResourceBase">
-    <defName>MD2Coal</defName>
+    <defName>MD3Coal</defName>
     <label>coal</label>
     <description>A lump of coal.</description>
     <graphicData>
@@ -118,7 +97,7 @@
 
   <!--Charcoal-->
   <ThingDef ParentName="ResourceBase">
-    <defName>MD2Charcoal</defName>
+    <defName>MD3Charcoal</defName>
     <label>charcoal</label>
     <description>A lump of charcoal.</description>
     <graphicData>
@@ -142,7 +121,7 @@
 
   <!--Soft clay-->
   <ThingDef ParentName="ResourceBase">
-    <defName>MD2SoftClay</defName>
+    <defName>MD3SoftClay</defName>
     <label>soft clay</label>
     <description>A lump of soft clay.</description>
     <graphicData>
@@ -165,7 +144,7 @@
 
   <!--Clay Brick-->
   <ThingDef ParentName="ResourceBase">
-    <defName>MD2ClayBrick</defName>
+    <defName>MD3ClayBrick</defName>
     <label>clay brick</label>
     <description>A brick of hardened clay. Can be used for construction.</description>
     <graphicData>

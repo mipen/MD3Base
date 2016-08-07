@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <StatDefs>
   <StatDef>
-    <defName>MD2SolderingSpeed</defName>
+    <defName>MD3SolderingSpeed</defName>
     <label>soldering speed</label>
     <description>Speed at which this person can solder circuitry.</description>
     <category>PawnWork</category>
@@ -34,7 +34,7 @@
   </StatDef>
   
   <StatDef>
-    <defName>MD2SolderingEfficiency</defName>
+    <defName>MD3SolderingEfficiency</defName>
     <label>soldering efficiency</label>
     <description>Multiplier on the amount of materials yielded when this person solders a circuit.</description>
     <category>PawnWork</category>
